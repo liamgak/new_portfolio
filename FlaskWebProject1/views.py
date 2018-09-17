@@ -7,7 +7,7 @@ def index():
     return render_template('index.html')
 
 @app.route('/HCI')
-def hci():
+def HCI():
     return render_template('HCI.html')
 
 @app.route('/download/')
